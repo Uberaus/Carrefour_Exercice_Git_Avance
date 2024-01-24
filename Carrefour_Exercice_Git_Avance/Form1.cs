@@ -24,7 +24,7 @@ namespace Carrefour_Exercice_Git_Avance
         {
             if (Vitesse > 0)
             {
-                Vitesse -= 2;
+                Vitesse -= 1;
             } 
         }
 
@@ -45,11 +45,7 @@ namespace Carrefour_Exercice_Git_Avance
 
         private void button_afficherVitesse_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            MessageBox.Show("Votre vitesse est : " + Vitesse.ToString());
-=======
             MessageBox.Show( Vitesse.ToString() + "Km/h ");
->>>>>>> Essence
         }
 
         private void button_freiner_Click(object sender, EventArgs e)
